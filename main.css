@@ -6,7 +6,7 @@
   text-align: center;
 }
 .intro {
-  display: inline-block;
+  display: block;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
