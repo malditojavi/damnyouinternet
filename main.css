@@ -1,0 +1,217 @@
+.container {
+  margin-left: 8em;
+  margin-right: 8em;
+  font-size: 14px;
+  font-family:'Avenir Next', sans-serif;
+  text-align: center;
+}
+.intro {
+  display: inline-block;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 300;
+}
+.intro > img {
+  display: inline-block;
+  border-radius: 25px;
+  width: 60px;
+}
+.topsection {
+  
+}
+.companies {
+  
+}
+.writes {
+  
+}
+.company {
+  width: 600px;
+  margin: auto;
+
+}
+.company > img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.summarycompany {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+.testimonial {
+  display: block;
+}
+.firstcolumn {
+  width: 45%;
+  display: inline-block;
+}
+.secondcolumn {
+  display: inline-block;
+  width: 45%;
+}
+.tweetgroup {
+  display: inline-block;  
+}
+.tweet {
+  width: 70%;
+  display: inline-block;
+}
+.tweet > p {
+  font-size: 16px;
+  text-align: left;
+  
+}
+.whotweeted {
+  background-color: grey;
+  border-radius: 3px;
+  padding: 5px 5px 5px 10px;
+}
+.nametweeted {
+  display: block;
+  text-align: left;
+}
+.positiontweeted {
+  display: block;
+  text-align: left;
+}
+.tweetgroup > img {
+  display: inline-block;
+  border-radius: 50px;
+  width: 49px;
+
+}
+.titlepost {
+  font-size: 31px;
+}
+.apostin {
+  display: block;  
+  vertical-align: top;
+}
+.apostin > img  {
+  width: 8em;
+}
+.tag {
+  border-radius: 3px;
+  background-color: grey;
+  padding: 5px 10px 5px 10px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.maincompanyname {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  text-align: left;
+  
+}
+.mainproducts {
+  font-size: 18px;
+  font-weight: 600;
+  color: #C9C4C4;
+  display: block;
+  text-align: left;
+}
+.services {
+  background: #D8D8D8;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14  px;
+  font-family:'Avenir Next', sans-serif;
+  text-align: center;
+  
+}
+.work {
+  
+}
+.sectiontitle {
+  font-size: 36px;
+}
+.topsectionservices {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services  {
+  background: #D8D8D8;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14  px;
+  font-family:'Avenir Next', sans-serif;
+  text-align: center;
+}
+.topsectionservices {
+  max-width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topsectionservices > img {
+  display: inline-block;
+  width: 20em;
+}
+.summary {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  margin-left: 10px;
+}
+.titlemarketing {
+  font-size: 16px;
+  font-weight: 700;
+}
+.group {
+    background-color: white;
+  border-radius: 3px;
+    border-width: 1px;
+  border-style: solid;
+    border-color: #979797;
+    width: 370px;
+    padding: 5px;
+    display: inline-block;
+  margin: 10px;
+}
+.email {
+  background-color: lightgrey;
+  padding: 15px 10px 15px 10px;
+  border-radius: 3px;
+}
+.group > img {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.inner {
+    display: inline-block;
+    width: 70%;
+  text-align: left;
+}
+.group > h2 {
+    font-size: 1.2em;
+    width: 70%;
+    
+}
+.description {
+    width: 70%;
+    vertical-align: top; 
+}
+
+button {
+  padding: 20px 35px 20px 35px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px #D8D8D8  ;
+  font-size: 25px;
+  border-radius: 3px;
+  font-family:'Avenir Next', sans-serif;
+}
+
+@font-face {
+    font-family:'Avenir Next';
+    src:url("http://petithacks.com/app/assests/fonts/AvenirNextLTPro-Regular.otf");
+    src:url("http://petithacks.com/app/assests/fonts/AvenirNextLTPro-Bold.otf");
+    src:url("http://petithacks.com/app/assests/fonts/GothamBlack.otf");
+    src:url("http://petithacks.com/app/assests/fonts/GothamBold.otf")
+}
