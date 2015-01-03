@@ -20,6 +20,12 @@ text-align: center;
     left: 0;
     top: 0;
 }
+.networklogos {
+  width: 2.5em;
+}
+.myspacelogo {
+  width: 7.2em;
+}
 .headerelement {
   display: inline-block;
   margin-left: 30px;
@@ -49,10 +55,11 @@ text-align: center;
   
 }
 .writes {
+  margin-top: 50px;
 
 }
 .company {
-  width: 600px;
+  width: 750px;
   margin: auto;
 
 }
@@ -62,7 +69,7 @@ text-align: center;
 }
 .summarycompany {
   display: inline-block;
-  width: 45%;
+  width: 50%;
   text-align: left;
 }
 .testimonial {
@@ -83,13 +90,17 @@ text-align: center;
   width: 70%;
   display: inline-block;
 }
+.tweet > p > a {
+ text-decoration: none;
+ color: rgb(134, 128, 128);
+}
 .tweet > p {
   font-size: 16px;
   text-align: left;
   
 }
 .whotweeted {
-  background-color: grey;
+  background-color: rgb(247, 247, 247);
   border-radius: 3px;
   padding: 5px 5px 5px 10px;
 }
@@ -119,7 +130,8 @@ text-align: center;
 }
 .tag {
   border-radius: 3px;
-  background-color: grey;
+  background-color: #292f36;
+  color: white;
   padding: 5px 10px 5px 10px;
   margin: 2px;
   display: inline-block;
@@ -155,7 +167,7 @@ text-align: center;
   font-size: 36px;
 }
 .topsectionservices {
-  width: 100%;
+  width: 68%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -187,10 +199,21 @@ text-align: center;
   font-size: 16px;
   font-weight: 700;
 }
+.monthlyplan{
+display: block;
+margin: 10px;
+background-color: orange;
+width: auto;
+border-radius: 3px;
+padding: 10px;
+text-align: center;
+}
 .group {
     background-color: white;
   border-radius: 3px;
     border-width: 1px;
+    min-height: 200px;
+vertical-align: top;
   border-style: solid;
     border-color: #979797;
     width: 370px;
