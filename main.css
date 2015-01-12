@@ -73,6 +73,7 @@ margin-top: 20px;
   display: inline-block;
   margin-right: 10px;
   height: 13.8em;
+  border-radius: 3px;
 }
 .summarycompany {
   display: inline-block;
@@ -177,6 +178,10 @@ font-family: 'Avenir Next', sans-serif;
   padding: 5px 10px 5px 10px;
   margin: 2px;
   display: inline-block;
+}
+
+.petithacks {
+ background-color: #c00fee;
 }
 
 .maincompanyname {
