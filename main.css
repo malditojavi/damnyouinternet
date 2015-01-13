@@ -72,7 +72,8 @@ margin-top: 20px;
 .company > img {
   display: inline-block;
   margin-right: 10px;
-  height: 13.8em;
+min-height: 13.8em;
+max-width: 25.3em;
   border-radius: 3px;
 }
 .summarycompany {
