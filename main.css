@@ -1,348 +1,103 @@
-.container {
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: 60px;
-  font-size: 14px;
-  font-family:'Avenir Next', sans-serif;
-  text-align: center;
-
+body {
+margin: 0;
+font-size: 16px;
+font-family:'Avenir Next', sans-serif;
 }
-.titlepost > a {
+a {
+  text-decoration: underline;
   color: inherit;
-  text-decoration: none;
 }
-header {
-  background-color: #292f36;
-  color: white;
-  font-family: 'Avenir Next', sans-serif;
-  padding: 15px;
-  width: 100%;
-text-align: center;
-      position: fixed;
-    z-index: 10;
-    right: 0;
-    left: 0;
-    top: 0;
+p {
+  line-height: 2;
 }
-.networklogos {
-  width: 2.5em;
+.col-md-4 {
 }
-.myspacelogo {
-  width: 7.2em;
+h2 {
+  font-size: 2.5em;
+  font-family: 'Book Antiqua';
+  font-weight: 900;
 }
-.headerelement {
-  display: inline-block;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
+.socialnetworks {
+  max-width: 50px;
 }
-.headerelement > a {
-  color:white;
+.github {
+width: 100px;
 }
-.intro {
-  display: block;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-  font-weight: 300;
+.yellow {
+background-color: #F6CF48;
+padding-bottom: 3em;
+padding-top: 3em;
 }
-.intro > img {
-  display: inline-block;
-  border-radius: 25px;
-  width: 60px;
+.avatarimage {
+width: 10em;
+border-radius: 3px
 }
-.topsection {
-  
+.infowrapper {
 }
-.companies {
-  
+.company1 {
+margin: 0.5em;
 }
-.writes {
-  margin-top: 50px;
-
+.companyimage1 {
+width: 100%;
 }
-.company {
-  width: 750px;
-  margin: auto;
-  margin-bottom: 20px;
-margin-top: 20px;
-
+.companyname1 {
+font-size: 20px;
+font-weight: 700;
 }
-.company > img {
-  display: inline-block;
-  margin-right: 10px;
-min-height: 13.8em;
-max-width: 25.3em;
-  border-radius: 3px;
-}
-.summarycompany {
-  display: inline-block;
-  width: 50%;
-  text-align: left;
-  vertical-align: top;
-}
-.testimonial {
-  display: block;
-  width: 60%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 2em;
-
-}
-.mc_embed_signup {
-  margin-top: 1.8em;
-margin-bottom: 1.8em;
-}
-.firstcolumn {
-  width: 45%;
-  display: inline-block;
-}
-.secondcolumn {
-  display: inline-block;
-  width: 45%;
-}
-.tweetgroup {
-  display: inline-block;  
-}
-.tweet {
-  width: 70%;
-  display: inline-block;
-}
-.tweet > p > a {
- text-decoration: none;
- color: rgb(134, 128, 128);
-}
-.tweet > p {
-  font-size: 16px;
-  text-align: left;
-  
-}
-.whotweeted {
-  background-color: rgb(247, 247, 247);
-  border-radius: 3px;
-  padding: 5px 5px 5px 10px;
-}
-.nametweeted {
-  display: block;
-  text-align: left;
-}
-.positiontweeted {
-  display: block;
-  text-align: left;
-}
-.tweetgroup > img {
-  display: inline-block;
-  border-radius: 50px;
-  width: 49px;
-
-}
-.titlepost {
-  font-size: 31px;
-}
-.apostin {
-  display: block;  
-  vertical-align: top;
-}
-.apostin > img  {
-  width: 8em;
-}
-#mce-EMAIL {
-  background-color: rgb(239, 239, 239);
-padding: 5px 10px 5px 10px;
-border-radius: 3px;
-/* box-shadow: none; */
-border: 0;
-/* padding: 0; */
-}
-#mc_embed_signup_scroll > div.mc-field-group
-{
-  width: 78%;
-  margin-left: auto;
-  margin-right: auto;
-background-color: lightgrey;
-padding: 15px 10px 15px 10px;
-border-radius: 3px;
-}
-#mc-embedded-subscribe {
-/* padding: 10px; */
-/* margin-top: 20px; */
-/* box-shadow: 2px 2px 2px #D8D8D8; */
-font-size: 1em;
-border-radius: 3px;
-font-family: 'Avenir Next', sans-serif;
-}
-.tag {
-  border-radius: 3px;
-  background-color: #292f36;
-  color: white;
-  padding: 5px 10px 5px 10px;
-  margin: 2px;
-  display: inline-block;
-}
-
-.petithacks {
- background-color: #c00fee;
-}
-
-.maincompanyname {
-  font-size: 24px;
-  font-weight: 700;
-  display: block;
-  text-align: left;
-  
-}
-.mainproducts {
-  font-size: 18px;
-  font-weight: 600;
-  color: #C9C4C4;
-  display: block;
-  text-align: left;
-}
-.services {
-  background: #D8D8D8;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 14  px;
-  font-family:'Avenir Next', sans-serif;
-  text-align: center;
-  margin-top: 10em;
-  width: 850px;
-margin-left: auto;
-margin-right: auto;
-}
-.work {
-  
-}
-.sectiontitle {
-  font-size: 36px;
-}
-.topsectionservices {
-  width: 68%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.tooltip {
-    display: inline;
-    position: relative;
-}
-
-.tooltip:hover {
-    color: #c00;
-    text-decoration: none;
-}
-
-.tooltip:hover:after {
-    background: #111;
-    background: rgba(0,0,0,.8);
-    border-radius: .5em;
-    bottom: 1.35em;
-    color: #fff;
-    content: attr(title);
-    display: block;
-    left: 1em;
-    padding: .3em 1em;
-    position: absolute;
-    text-shadow: 0 1px 0 #000;
-    white-space: nowrap;
-    z-index: 98;
-}
-
-.tooltip:hover:before {
-    border: solid;
-    border-color: #111 transparent;
-    border-color: rgba(0,0,0,.8) transparent;
-    border-width: .4em .4em 0 .4em;
-    bottom: 1em;
-    content: "";
-    display: block;
-    left: 2em;
-    position: absolute;
-    z-index: 99;
-}
-
-.services  {
-  background: #D8D8D8;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 14  px;
-  font-family:'Avenir Next', sans-serif;
-  text-align: center;
-}
-.topsectionservices {
-  max-width: 80%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-}
-.topsectionservices > img {
-  display: inline-block;
-  width: 50%;
-}
-.summary {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  margin-left: 10px;
-}
-.titlemarketing {
-  font-size: 16px;
-  font-weight: 700;
-}
-.monthlyplan{
+.companywebsite1 {
 display: block;
-margin: 10px;
-background-color: orange;
+color: grey;
+font-weight: 700;
+}
+.companydescription1 {
+}
+.companytagwrapper {
+display: block;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.companytag1 {
 width: auto;
-border-radius: 3px;
+background-color: lightgrey;
 padding: 10px;
-text-align: center;
+border-radius: 3px;
 }
-.group {
-    background-color: white;
-  border-radius: 3px;
-    border-width: 1px;
-    min-height: 200px;
-vertical-align: top;
-  border-style: solid;
-    border-color: #979797;
-    width: 370px;
-    padding: 5px;
-    display: inline-block;
-  margin: 10px;
+.postthumbnail {
+width: 100%;
 }
-.email {
-  background-color: lightgrey;
-  padding: 15px 10px 15px 10px;
-  border-radius: 3px;
+.logodescription {
+display: block;
+background-color: lightgrey;
+padding: 10px;
+border-radius: 3px;
+border-style: solid;
 }
-.group > img {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
+.logodescription:hover {
+border-color: blue;
+background-color:red;
 }
-.inner {
-    display: inline-block;
-    width: 70%;
-  text-align: left;
+.postlogo{
+width: 100px;
+display: inline;
 }
-.group > h2 {
-    font-size: 1.2em;
-    width: 70%;
-    
+.hey {
+  font-size: 2.5em;
+  font-family: 'Book Antiqua';
+  font-weight: 900;
 }
-.description {
-    width: 70%;
-    vertical-align: top; 
-}
-
 button {
   padding: 20px 35px 20px 35px;
   margin-top: 20px;
-  box-shadow: 2px 2px 2px #D8D8D8  ;
+  box-shadow: 2px 2px 2px #D8D8D8;
   font-size: 25px;
   border-radius: 3px;
-  font-family:'Avenir Next', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
+}
+
+@media min-width 480px {
+  .companytag1 {
+    background-color: red;
+  }
 }
 
 @font-face {
